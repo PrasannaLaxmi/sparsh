@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<form>
+        Name:
+   		<input type="text" name="Name">
+			<div class="radio">
+      			<label><input type="radio" name="optradio">Existing</label>    
+                <label><input type="radio" name="optradio">New</label>
+            </div>
+	
+      		Location:
+   				<input type="text" name="Location">
+   				<div class="dropdown">
+    <button class="btn" type="button" data-toggle="dropdown">District
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+    </ul>
+    <div class="dropdown">
+    <button class="btn" type="button" data-toggle="dropdown">Mandal
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      </ul>
+      <div class="dropdown">
+    <button class="btn" type="button" data-toggle="dropdown">Village
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+    </ul>
+
+		
+    		<div class="form-group">
+      			<label for="comment">Detailed Address:</label>
+      			<textarea class="form-control" rows="5" id="Detailed Address"></textarea>
+      		</div>
+     
+
+     
+      		Permanent Resident:
+   		<input type="text" name="Permanent Resident">
+    <label class="radio-inline">
+      <input type="radio" name="optradio">yes
+    </label>
+    <label class="radio-inline">
+      <input type="radio" name="optradio">no
+    </label>
+     
+    <div class="container">
+      	
+      		<div class="form-group">
+      			<label for="comment">qualification:</label>
+      			<textarea class="form-control" rows="5" id="qualification"></textarea>
+    		</div>
+  		
+	</div>
+    
+        image:
+   		<input type="file" name="image">
+	
+       resume:
+   		<input type="file" name="resume">
+	</form>
+</body>
+</html>
